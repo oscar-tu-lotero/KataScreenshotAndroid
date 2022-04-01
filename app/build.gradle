@@ -17,7 +17,7 @@ apply plugin: 'shot'
 
 android {
   compileSdkVersion 23
-  buildToolsVersion "23.0.2"
+  buildToolsVersion "25.0.0"
   defaultConfig {
     applicationId 'com.karumi.screenshot'
     minSdkVersion 16
@@ -47,7 +47,7 @@ dependencies {
   apt 'com.google.dagger:dagger-compiler:2.0.2'
   testCompile 'com.google.dagger:dagger-compiler:2.0.2'
   testCompile 'junit:junit:4.12'
-  androidTestCompile 'com.github.fabioCollini:DaggerMock:0.4'
+  androidTestCompile 'com.github.fabioCollini:DaggerMock:0.8.5'
   androidTestApt 'com.google.dagger:dagger-compiler:2.0.2'
   androidTestCompile 'com.google.dexmaker:dexmaker:1.2'
   androidTestCompile('com.google.dexmaker:dexmaker-mockito:1.2') {
